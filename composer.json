@@ -1,0 +1,23 @@
+{
+    "name": "nextbits/demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Veerabharathi",
+            "email": "v.veerabharathi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/ui": "2.4"
+    },
+    "require-dev": {
+        "laravel/ui": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nextbits\\Demo\\" : "src/"
+        }
+    }
+}
