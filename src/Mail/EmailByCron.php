@@ -28,6 +28,6 @@ class EmailByCron extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.email-by-cron');
+        return $this->markdown('demo::emails.email-by-cron');
     }
 }

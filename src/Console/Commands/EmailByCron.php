@@ -38,7 +38,7 @@ class EmailByCron extends Command
      */
     public function handle()
     {
-        Mail::to('test@test.com')->send(new \App\Mail\EmailByCron());
+        Mail::to('test@test.com')->send(new \Nextbits\Demo\Mail\EmailByCron());
         return 0;
     }
 }
